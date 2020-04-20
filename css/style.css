@@ -1,0 +1,346 @@
+body{
+  min-width: 320px;
+  margin: 0;
+  background-color: #000000 ;
+  color:rgb(255, 255, 255);
+  font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px
+}
+
+h2{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+p{
+  font-size: 19.2px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/*card1*/
+
+.header{
+  height: 45px;
+  padding-top: 2%;
+}
+
+.logo{
+  height: 80%;
+  width: 20%;
+  padding-left: 5%
+}
+
+#netflix-logo{
+  fill:rgb(229, 9, 20);
+}
+.btn-red{
+  font-size: 0.9rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
+  color: #ffffff;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-right: 5%
+
+}
+
+a:hover{
+  text-decoration: none;
+  color: white
+}
+
+.card-style{
+  border-bottom: 8px solid #222;
+  padding: 10%;
+  text-align: center;
+}
+
+
+.page1{
+  margin-top: 0;
+  padding-top: 0;
+  background-image:linear-gradient(-100deg,rgba(0,0,0,.6) 0%, rgba(0,0,0,0.6) 50%), url(../image/card1-picture.jpg);
+  background-repeat: none;
+  height: 100%;
+  width: 100% ;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.title{
+  max-width: 640px;
+  margin: 0 auto
+}
+
+.mail{
+  padding: 18px 2%;
+  width: 50%;
+  font-size: 16px;
+  height:5%;
+}
+
+.btn-mail{
+  height: 5%;
+  padding: 14px 40px; /*1.5% 4% ;
+*/  color: rgb(255, 255, 255);
+  background-color:#db0510;
+  font-size: 26px;
+  border-style: none;
+}
+
+@media (max-width: 700px){
+  .btn-mail{
+  margin: 2% 25%;
+  height: 5%;
+  padding: 3% 4% ;
+  color: white;
+  background-color:#db0510;
+  font-size: 16px;
+  border-style: none;
+  }
+}
+
+@media (max-width: 700px){
+  .mail{
+  padding: 2%;
+  width: 80%;
+  font-size: 16px;
+  height:5%;
+  }
+}
+
+
+
+.line{
+  padding: 1% 0;
+  padding-left: 20%;
+  display: flex;
+  height: 5%;
+  flex-wrap: wrap;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 8px solid #222;
+  padding: 5% 10%
+}
+
+/*card2-4
+*/
+.text-left {
+  padding-top: 7%;
+  text-align: left;
+}
+
+@media (max-width: 1050px){
+  .text-left{
+    padding-top: 5%;
+    text-align: center;
+  }
+}
+
+.card:nth-child(1){
+  flex: 2;
+}
+
+.card:nth-child(2){
+  flex: 1;
+}
+
+
+.card2:nth-child(1){
+  flex: 1;
+}
+
+.card2:nth-child(2){
+  flex:2;
+}
+
+.card{
+  position: relative;
+}
+
+.background{
+  position: relative;
+  z-index: 2
+}
+
+.video{
+  position: relative;
+  z-index: 1;
+  top: -400px;
+  left: 85px;
+}
+
+
+.hide{
+  height: 2px
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color:#222;
+  padding:1%;
+  border-radius: 10px;
+}
+
+.element{
+ font-size: 15px;
+  padding: 0 5%;
+  flex-basis: 25%
+}
+
+.font-blue{
+  color:rgb(0, 113, 235)
+}
+
+.download{
+  position: relative;
+  top: -50px;
+  left: 60px;
+  width: 75%
+}
+
+/*card5*/
+
+
+
+.btn-grey{
+  background-color: #303030;
+  padding: 0.8em 2.2em 0.8em 1.2em;
+  text-align: left;
+  margin-top: 1%;
+  font-size: 26px;
+  border-style: none;
+}
+
+.card-grey{
+  background-color: #303030;
+  margin-top:3px;
+  text-align: left;
+  padding: 3%
+}
+
+.FAQ{
+  border-bottom: 8px solid #222;
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.btn-grey,.btn-red,.btn-mail:hover{
+  cursor: pointer;
+}
+
+summary:focus {
+  outline-style: none;
+}
+
+.padding-top{
+  padding-top:5%
+}
+
+.line2{
+  padding-left: 20%;
+  display: flex;
+  height: 5%;
+  flex-wrap: wrap;
+}
+
+.padding-sides{
+  padding:0 15%;
+}
+
+/*card6*/
+
+.bottom{
+  color: rgb(117, 117, 117);
+  padding: 0 18%;
+}
+
+.list-style{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom p{
+  font-size: 16px
+}
+
+.bottom a{
+  color: rgb(117, 117, 117);
+  text-decoration: none;
+  font-size: 13px ;
+}
+.bottom a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottom p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link{
+  flex-basis: 25%;
+  padding-top: 15px
+}
+
+@media (max-width: 1000px){
+  .link{
+  flex-basis: 33%;
+  }
+}
+
+@media (max-width: 800px){
+  .link{
+  flex-basis: 50%;
+  }
+}
+
+.btn-black{
+  padding: 1%;
+  border-style:groove;
+  border-color:#303030;
+  width: 10%;
+}
+
+
+.footer{
+  padding: 0 18%;
+  color: rgb(117, 117, 117);
+}
+
+.footer p{
+  font-size:16px
+}
+
+#padding-bottom{
+  padding-bottom: 5%;
+  font-size: 13px
+}
+
+
+
+
+
+
+
+
